@@ -1,0 +1,18 @@
+{
+  "experiment_name": "orbitcalc-signal-delay-ms",
+  "models": [
+    {
+      "name": "Lasso",
+      "mae": 58.6292,
+      "rmse": 70.9159
+    },
+    {
+      "name": "GradientBoosting",
+      "mae": 115.779,
+      "rmse": 138.0348
+    }
+  ],
+  "best_model": "Lasso",
+  "best_metric_name": "mae",
+  "best_metric_value": 58.6292
+}

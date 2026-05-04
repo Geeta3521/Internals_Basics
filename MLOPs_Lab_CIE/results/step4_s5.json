@@ -1,0 +1,23 @@
+{
+  "total_predictions": 50,
+  "mean_prediction": 443.3561,
+  "drift_detected": true,
+  "alerts": [
+    {
+      "feature": "orbit_altitude_km",
+      "train_mean": 17102.76,
+      "live_mean": 29422.07,
+      "shift": 12319.31,
+      "threshold": 8397.4,
+      "status": "ALERT"
+    },
+    {
+      "feature": "atmospheric_index",
+      "train_mean": 3.05,
+      "live_mean": 4.37,
+      "shift": 1.32,
+      "threshold": 1.06,
+      "status": "ALERT"
+    }
+  ]
+}

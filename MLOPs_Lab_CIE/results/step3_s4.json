@@ -1,0 +1,13 @@
+{
+  "health_endpoint": "/ping",
+  "predict_endpoint": "/score",
+  "port": 9000,
+  "health_response": {"status": "running", "model": "Lasso", "version": "1.0"},
+  "test_input": {
+    "orbit_altitude_km": 23141.6,
+    "ground_station_count": 5,
+    "atmospheric_index": 3.0,
+    "is_polar_orbit": 0
+  },
+  "prediction": 320.0945
+}
